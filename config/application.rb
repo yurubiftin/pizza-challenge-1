@@ -23,6 +23,7 @@ module PizzaShop
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.1
+    config.active_record.sqlite3_production_warning = false
 
     # Configuration for the application, engines, and railties goes here.
     #
